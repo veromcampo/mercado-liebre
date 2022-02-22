@@ -1,0 +1,24 @@
+.titulo {
+  font-size: var(--titulo);
+  color: var(--gris-oscuro);
+  margin-block: 24px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.cards_box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.last-visit,
+.ofers {
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  /* .cards_box {
+    justify-content: center;
+  } */
+}

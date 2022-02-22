@@ -1,0 +1,39 @@
+@import "./normalize.css";
+
+/* Sections */
+@import "./header.css";
+@import "./footer.css";
+@import "./main.css";
+@import "./form.css";
+
+/* Component */
+@import "./component/wrapper.css";
+@import "./component/card.css";
+:root {
+  /* Colores */
+  --amarillo: #eac926;
+  --azul: #03264c;
+  --celeste: #1259c3;
+  --gris-oscuro: #666;
+  --gris-claro: #ebebeb;
+  --verde: #39b54a;
+  --blanco: #ffffff;
+  --negro: #000000;
+  --icon-hover-footer: #85c3b4;
+
+  /* Tipografías  */
+  font-family: "Roboto", sans-serif;
+
+  /* Tamaños tipograficos */
+  --cuerpos-de-texto: 12px;
+  --titulo: 24px;
+  --price: 18px;
+  --off: 16px;
+  --description: 16px;
+}
+body {
+  background-color: var(--gris-claro);
+}
+.banner img {
+  width: 100vw;
+}

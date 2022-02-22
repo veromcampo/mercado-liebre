@@ -1,0 +1,35 @@
+footer article {
+  text-align: center;
+  margin-block-end: 24px;
+}
+
+footer article i {
+  font-size: 2em;
+  color: var(--celeste);
+  margin-block-end: 10px;
+  transition: all 500ms;
+}
+footer article i:hover {
+  color: var(--icon-hover-footer);
+  transform: scale(1.5);
+}
+footer .copyright {
+  display: block;
+  margin-block: 24px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blanco);
+    width: 100vw;
+    padding-block: 24px;
+  }
+  .footer section {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+}
