@@ -20,13 +20,6 @@ app.get("/login", (req, res) => {
 
 const port = process.env.PORT || 3000;
 app.listen(port, () =>
-  console.log(`El servidor se está ejecutando en el puerto ${port}`)
+  console.log("El servidor se está ejecutando en el puerto" +port)
 );
 
-/*echo "# mercado-liebre" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/veromcampo/mercado-liebre.git
-git push -u origin main*/
